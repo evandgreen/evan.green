@@ -1,0 +1,38 @@
+body {
+    background-color: lavender;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1, footer {
+    text-align: center;
+}
+
+.myProjects {
+    text-align: left;
+}
+
+.landingPage {
+    background-color: lavender;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btnToSource {
+    background-color: white;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.btnToSource:hover {
+    background-color: lavenderblush;
+}
+
+.catButton {
+    height: auto;
+    width: 275px;
+}
+
+.catButton:hover {
+    cursor:pointer;
+}
+
