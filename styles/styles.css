@@ -3,39 +3,55 @@
     text-decoration-color: #0D1821;
 }
 
-a {
+a, a:hover {
     text-decoration: none;
     color:#0D1821;
 }
 
 a:hover {
     text-decoration: underline wavy;
-    color:#0D1821;
 }
 
 body {
     background-color: #FBEDFC;
 }   
 
-h1, footer {
+.page-title, footer {
     text-align: center;
 }
 
-.proj, .projects-grid, .about-me-blurb {
+.proj, .about-me-blurb {
     background-color: white;
-    border: 2px solid black;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
     border-radius: 8px;
     padding: 10px;
     margin: 20px;
 }   
 
+.proj-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proj {
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.proj > h2, p, .btn {
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 .about-me-blurb {
-    text-align: center;
+    text-align: left;
 }
 
 .hero-text {
-    font-size: 30px;
-    
+    text-align: left;
 }
 
 .landingPage {
@@ -50,6 +66,11 @@ h1, footer {
 
 .btn:hover {
     background-color: #E5F0E9;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: left;
 }
 
 .catButton {
