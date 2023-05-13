@@ -14,6 +14,8 @@ a:hover {
 
 body {
     background-color: #FBEDFC;
+    background-image: linear-gradient(#FBEDFC, white);
+    min-height: 100vh;
 }   
 
 .page-title, footer {
@@ -71,6 +73,7 @@ body {
 .btn-container {
     display: flex;
     justify-content: left;
+    flex-wrap: wrap;
 }
 
 .catButton {
