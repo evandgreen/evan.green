@@ -1,27 +1,44 @@
-body {
-    background-color: lavender;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration-color: #0D1821;
 }
+
+a {
+    text-decoration: none;
+    color:#0D1821;
+}
+
+a:hover {
+    text-decoration: underline wavy;
+    color:#0D1821;
+}
+
+body {
+    background-color: #FBEDFC;
+}   
 
 h1, footer {
     text-align: center;
 }
 
-.myProjects {
-    text-align: left;
-}
-
-.proj {
+.proj, .projects-grid, .about-me-blurb {
     background-color: white;
     border: 2px solid black;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px;
 }   
 
-.landingPage {
-    background-color: lavender;
+.about-me-blurb {
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero-text {
+    font-size: 30px;
+    
+}
+
+.landingPage {
+    text-align: center;
 }
 
 .btnToSource {
@@ -31,7 +48,7 @@ h1, footer {
 }
 
 .btnToSource:hover {
-    background-color: lavenderblush;
+    background-color: #FBEDFC;
 }
 
 .catButton {
@@ -43,3 +60,6 @@ h1, footer {
     cursor:pointer;
 }
 
+.about-me-blurb {
+    text-align: center;
+}
