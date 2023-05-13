@@ -42,14 +42,14 @@ h1, footer {
     text-align: center;
 }
 
-.btnToSource {
+.btn {
     background-color: white;
     border-radius: 8px;
     cursor:pointer;
 }
 
-.btnToSource:hover {
-    background-color: #FBEDFC;
+.btn:hover {
+    background-color: #E5F0E9;
 }
 
 .catButton {
